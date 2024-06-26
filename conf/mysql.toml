@@ -1,0 +1,16 @@
+Name = "mysql_im"
+
+# 连接超时，ms，若不配置，使用默认值 5s
+ConnTimeOut = 5000
+
+# 写数据超时，ms，若不配置，使用默认值 5s
+WriteTimeOut = 200
+
+# 读数据超时，ms，若不配置，使用默认值 5s
+ReadTimeOut = 500
+
+
+UserName = "root"
+PassWord = ""
+Addr = "127.0.0.1:3306"
+Database = "im"
